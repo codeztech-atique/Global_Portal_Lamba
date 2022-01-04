@@ -41,7 +41,4 @@ module.exports.clientRole = async(event, context, callback) => {
     const result = await putItem;
     console.log(result);  
     context.succeed(event);
-
 }
-
-// insertDataintoDatabase(); // commmet this
