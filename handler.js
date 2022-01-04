@@ -18,7 +18,7 @@ module.exports.clientRole = async(event, context, callback) => {
         TableName: tableName,
         Item: {
             id: uuidv4(),
-            email: event.userName, 
+            email: event.request.userAttributes.email, 
             name: event.request.userAttributes.name,
             user_type: 'user', 
             email_verified: event.request.userAttributes.email_verified, 
