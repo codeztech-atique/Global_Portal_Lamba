@@ -1,0 +1,14 @@
+service: clientportal-userrole
+
+provider: 
+    name: aws
+    runtime: nodejs14.x # Node JS version
+    memorySize: 512
+    timeout: 15
+    stage: production
+    role: arn:aws:iam::485947658225:role/global_portal_client
+    region: us-west-1 # AWS region
+
+functions:
+ api:
+   handler: handler.clientRole

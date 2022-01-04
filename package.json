@@ -1,0 +1,25 @@
+{
+  "name": "netlify-clientportal-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exactius/Netlify-clientportal-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exactius/Netlify-clientportal-lambda/issues"
+  },
+  "homepage": "https://github.com/Exactius/Netlify-clientportal-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1043.0",
+    "dotenv": "^10.0.0",
+    "serverless": "^2.68.0",
+    "uuid": "^8.3.2"
+  }
+}
