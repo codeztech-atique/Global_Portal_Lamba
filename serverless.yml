@@ -7,7 +7,7 @@ provider:
     timeout: 15
     stage: production
     role: arn:aws:iam::485947658225:role/global_portal_client
-    region: us-west-1 # AWS region
+    region: ap-south-1 # AWS region
 
 functions:
  api:
